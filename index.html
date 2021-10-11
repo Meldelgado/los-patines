@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap Responsive link -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Todo sobre patines</title>
+</head>
+
+<body>
+    <div class="container__fluid">
+        <!-- Menu de navegacion -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"> <img src="./imagenes/logo-los-patines.png" alt=""> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./paginas/marcas.html">Marcas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./paginas/tipos.html">Tipos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./paginas/resenas.html">Reseñas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Bienvenida-->
+        <section class="section">
+            <div>
+                <div class="section__container">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">
+                                    <h1> Somos una página web especializada en patines. Si te interesa este mundo,
+                                        llegaste al lugar indicado </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <h2>Tipos</h2>
+        </div>
+        <!-- Cajas-->
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="./imagenes/patines-en-linea.jpg.png" alt="patines en linea" />
+                    <div class="card-body p-4">
+                        <a class="text-decoration-none link-dark stretched-link" href="./paginas/tipos.html">
+                            <h5 class="card-title mb-3">Patines en línea</h5>
+                        </a>
+                        <p class="card-text mb-0"> Los patines en línea son ideales para ejercitarse y mantenerse en
+                            forma constantemente. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="./imagenes/patines-de-velocidad.jpg.png   "
+                        alt="Patines de velocidad" />
+                    <div class="card-body p-4">
+                        <a class="text-decoration-none link-dark stretched-link" href="./paginas/tipos.html">
+                            <h5 class="card-title mb-3">Patines de velocidad</h5>
+                        </a>
+                        <p class="card-text mb-0">Los patines de velocidad son para profesionales. Las ruedas son mucho
+                            más grandes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="./imagenes/patines-agresivos.jpg.png" alt="patines agresivos" />
+                    <div class="card-body p-4">
+                        <a class="text-decoration-none link-dark stretched-link" href="./paginas/tipos.html">
+                            <h5 class="card-title mb-3">Patines agresivos</h5>
+                        </a>
+                        <p class="card-text mb-0">Los patines agresivos son especiales para skateparks. Son bota rígida
+                            y ruedas chicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div>
+        <h2>Marcas</h2>
+    </div>
+    <aside class="aside">
+        <!-- Carrusel marcas -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/patines-hudora.png" class="d-block w-100" alt="patines-agresivos">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Patines Hudora</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/patines-powerslide.png" class="d-block w-100" alt="patines-de-velocidad">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Patines Powerslide</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/patines-rollerblade.png" class="d-block w-100" alt="patines-en-linea">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Patines Rollerblade</h4>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+    </aside>
+    <div>
+        <h2>Reseñas</h2>
+    </div>
+<!-- Cajas-->
+<div class="row gx-5">
+    <div class="col-lg-4 mb-5">
+        <div class="card h-100 shadow border-0">
+            <img class="card-img-top" src="./imagenes/powerslide1.png" alt="patines en linea" />
+            <div class="card-body p-4">
+                <a class="text-decoration-none link-dark stretched-link" href="#">
+                    <h5 class="card-title mb-3">Los mejores patines en línea de 2021</h5>
+                </a>
+               
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-5">
+        <div class="card h-100 shadow border-0">
+            <img class="card-img-top" src="./imagenes/rollerblade1.png"
+                alt="Patines de velocidad" />
+            <div class="card-body p-4">
+                <a class="text-decoration-none link-dark stretched-link" href="#">
+                    <h5 class="card-title mb-3">Los patines agresivos más vendidos</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-5">
+        <div class="card h-100 shadow border-0">
+            <img class="card-img-top" src="./imagenes/hudora1.png" alt="..." />
+            <div class="card-body p-4">
+                <a class="text-decoration-none link-dark stretched-link" href="#">
+                    <h5 class="card-title mb-3">Los patines más baratos en Amazon</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Bootstrap link efectos-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    </div>
+
+    <!-- Newsletter-->
+
+    <aside class="bg-dark bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+        <div
+            class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+            <div class="mb-4 mb-xl-0">
+                <div class="fs-3 fw-bold text-white">¿Quieres enterarte de todas las novedades?</div>
+                <div class="text-white-50">Suscríbete a nuestro newsletter y no te pierdas nada.</div>
+            </div>
+            <div class="ms-xl-4">
+                <div class="input-group mb-2">
+                    <input class="form-control" type="text" placeholder="micorreo@ejemplo.com"
+                        aria-label="Email address..." aria-describedby="button-newsletter" />
+                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Suscribirse</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="text-center text-white bg-gradient" style="background-color: black;">
+        <h4 class="textoFooter">&copy; Copyright: Camada 22220</h4>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

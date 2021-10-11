@@ -1,0 +1,70 @@
+.card-text {
+  text-align: justify;
+}
+
+h5 {
+  background-color: greenyellow;
+}
+
+footer {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.container__fluid2 {
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container__fluid {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.section {
+  background-color: white;
+}
+
+.section .section__container {
+  padding: 10px 10px 10px 10px;
+}
+
+aside {
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: black;
+  background-color: greenyellow;
+  margin-top: 5px;
+}
+
+h4 {
+  font-size: 48px;
+  color: black;
+  background-color: greenyellow;
+}
+
+aside {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

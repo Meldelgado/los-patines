@@ -1,0 +1,53 @@
+@import "marcas";
+@import "tipos";
+
+$bgcolor: white;
+$bgcolorG: greenyellow;
+$colorTitulares: black;
+
+@mixin colorStyle {
+    color: $colorTitulares;
+    background-color: $bgcolorG;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container__fluid {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.section {
+    background-color: $bgcolor;
+    .section__container {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+aside {
+    margin-bottom: 5px;
+}
+
+h2 {
+    @include colorStyle();
+    margin-top: 5px;
+}
+
+h4 {
+    font-size: 48px;
+    @include colorStyle()
+}
+
+aside {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    margin-left: 5px;
+    margin-right: 5px;
+}
